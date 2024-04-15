@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-17 16:35+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: class-rkas.php:50 class-rkas.php:51
+msgid "RKAS"
+msgstr "RKAS"
+
+#: class-rkas.php:60 class-rkas.php:61
+msgid "Daftar RKAS"
+msgstr "List RKAS"
+
+#: class-rkas.php:68 class-rkas.php:69
+msgid "Tambah RKAS"
+msgstr "Add RKAS"
+
+#: class-rkas.php:106
+msgid "Memuat..."
+msgstr "Loading..."
+
+#: class-rkas.php:229 class-rkas.php:250 class-rkas.php:273
+msgid "Nonce tidak valid"
+msgstr "Invalid Nonce"
+
+#: view/rkas-form.php:5
+msgid "Ubah RKAS - Rencana Kegiatan Dan Anggaran Sekolah"
+msgstr "Update RKAS - Rencana Kegiatan Dan Anggaran Sekolah"
+
+#: view/rkas-form.php:7
+msgid "Data RKAS - Rencana Kegiatan Dan Anggaran Sekolah"
+msgstr "Data RKAS - Rencana Kegiatan Dan Anggaran Sekolah"
+
+#: view/rkas-form.php:9
+msgid "Tambah RKAS - Rencana Kegiatan Dan Anggaran Sekolah"
+msgstr "Add RKAS - Rencana Kegiatan Dan Anggaran Sekolah"
+
+#: view/rkas-form.php:20 view/rkas-list.php:9
+msgid "Kegiatan"
+msgstr "Activity"
+
+#: view/rkas-form.php:20 view/rkas-form.php:24 view/rkas-form.php:28
+#: view/rkas-form.php:32 view/rkas-form.php:36 view/rkas-form.php:40
+msgid "(wajib)"
+msgstr "(mandatory)"
+
+#: view/rkas-form.php:24 view/rkas-list.php:10
+msgid "Kode Rekening"
+msgstr "Account Code"
+
+#: view/rkas-form.php:28 view/rkas-list.php:11
+msgid "Urutan"
+msgstr "Order"
+
+#: view/rkas-form.php:32 view/rkas-list.php:12
+msgid "Uraian Kegiatan"
+msgstr "Activity Description"
+
+#: view/rkas-form.php:36 view/rkas-list.php:13
+msgid "Harga Satuan"
+msgstr "Unit price"
+
+#: view/rkas-form.php:40 view/rkas-list.php:14
+msgid "Satuan Item"
+msgstr "Item Unit"
+
+#: view/rkas-form.php:49
+msgid "Simpan"
+msgstr "Save"
+
+#: view/rkas-form.php:50 view/rkas-list.php:88
+msgid "Batal"
+msgstr "Cancel"
+
+#: view/rkas-form.php:52
+msgid "Kembali"
+msgstr "Back"
+
+#: view/rkas-form.php:54
+msgid "Submit"
+msgstr "Submit"
+
+#: view/rkas-form.php:100 view/rkas-form.php:127
+msgid "Data berhasil disimpan."
+msgstr "Data saved successfully."
+
+#: view/rkas-form.php:106
+msgid "Data gagal disubmit."
+msgstr "Data failed to submit."
+
+#: view/rkas-form.php:133
+msgid "Tidak ada perubahan data."
+msgstr "No data changes."
+
+#: view/rkas-list.php:4
+msgid "Daftar RKAS - Rencana Kegiatan Dan Anggaran Sekolah"
+msgstr "List RKAS - Rencana Kegiatan Dan Anggaran Sekolah"
+
+#: view/rkas-list.php:44
+msgid "Lihat Detail"
+msgstr "View Detail"
+
+#: view/rkas-list.php:46
+msgid "Ubah"
+msgstr "Update"
+
+#: view/rkas-list.php:48
+msgid "Hapus"
+msgstr "Delete"
+
+#: view/rkas-list.php:82
+msgid "RKAS '${msgDelete}' akan dihapus! Apakah Anda Yakin?"
+msgstr "RKAS '${msgDelete}' will be deleted! Are You Sure?"
+
+#: view/rkas-list.php:87
+msgid "Ya, Hapus!"
+msgstr "Yes, Delete!"
+
+#: view/rkas-list.php:100
+msgid "RKAS '${msgDelete}' sudah dihapus."
+msgstr "RKAS '${msgDelete}' has been deleted."
+
+#: view/rkas-list.php:103
+msgid "Data gagal dihapus."
+msgstr "Data failed to delete."

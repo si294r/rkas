@@ -1,0 +1,10 @@
+
+composer.lock
+/vendor/autoload.php
+/vendor/bin
+/vendor/composer
+/vendor/squizlabs/php_codesniffer
+/vendor/phpcsstandards/phpcsextra
+/vendor/phpcsstandards/phpcsutils
+/vendor/wp-coding-standards/wpcs
+/vendor/dealerdirect/phpcodesniffer-composer-installer

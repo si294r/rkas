@@ -1,0 +1,62 @@
+/*
+    datatable custom style
+*/
+div.dt-container div.dt-length select.dt-input {
+    width: 55px;
+    font-size: 12px;
+    padding: 0px 0px 0px 8px;
+    margin-right: 8px;
+}
+div.dt-container div.dt-search input.dt-input {
+    padding: 2px;
+}
+div.dt-container thead tr th {
+    text-align: center;
+}
+div.dt-container .dt-option {
+    cursor: pointer;
+    font-size: 15px;
+}
+div.dt-container .dt-option:hover {
+    color: #72aee6;
+}
+
+/* 
+    form style 
+*/
+table.form-table tr.form-field th {
+    padding: 12px 10px 12px 0;
+    font-weight: 400;
+}
+table.form-table tr.form-field td {
+    padding: 10px 10px;
+}
+
+/* override class 'arrow' in tooltip, conflict with wordpress class arrow */
+.tooltip .arrow {
+    overflow: auto;
+    margin-left: 0px; 
+    z-index: auto;
+}
+.tooltip .arrow::after {
+    content: none;
+}
+
+/* change spinner direction */
+@keyframes spinner-border {
+    to { transform: rotate(-360deg); }
+}
+
+/*
+    custom style
+*/
+form h3 {
+    margin: 10px 0;
+}
+.btn.btn-primary, .btn.btn-secondary {
+    width: 100px;
+}
+ul.disc {
+    list-style: disc;
+    padding-left: 32px;
+}
