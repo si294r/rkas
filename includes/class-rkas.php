@@ -47,9 +47,10 @@ class RKAS {
 	}
 
 	public function init_wpdb() {
-		// this code will skip proxy wpdb class.
 		if ( ! isset( $this->wpdb ) ) {
-			$this->wpdb = new wpdb( DB_USER, DB_PASSWORD, self::CLASS_DBNAME, DB_HOST );
+			global $wpdb;
+			$wpdb->select( self::CLASS_DBNAME );
+			$this->wpdb = $wpdb;
 		}
 		return $this->wpdb;
 	}
