@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-17 16:35+0700\n"
+"POT-Creation-Date: 2024-05-08 16:15+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,23 +22,24 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: vendor\n"
 
-#: class-rkas.php:50 class-rkas.php:51
+#: includes/class-rkas.php:65 includes/class-rkas.php:66
 msgid "RKAS"
 msgstr "RKAS"
 
-#: class-rkas.php:60 class-rkas.php:61
+#: includes/class-rkas.php:75 includes/class-rkas.php:76
 msgid "Daftar RKAS"
 msgstr "List RKAS"
 
-#: class-rkas.php:68 class-rkas.php:69
+#: includes/class-rkas.php:83 includes/class-rkas.php:84
 msgid "Tambah RKAS"
 msgstr "Add RKAS"
 
-#: class-rkas.php:106
+#: includes/class-rkas.php:124
 msgid "Memuat..."
 msgstr "Loading..."
 
-#: class-rkas.php:229 class-rkas.php:250 class-rkas.php:273
+#: includes/class-rkas.php:248 includes/class-rkas.php:269
+#: includes/class-rkas.php:292
 msgid "Nonce tidak valid"
 msgstr "Invalid Nonce"
 
